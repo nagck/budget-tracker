@@ -1,4 +1,4 @@
-# Budget-Tracker
+# Budget-Tracker (PWA, Online/Offline)
 ## Description
 The Budget Tracker application allows users to add expenses and deposits to their budget with or without a data/internet connection.
 Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
@@ -24,21 +24,17 @@ When brought back online:
 
 ## Technologies Used: 
 * Node.js, Express
+* IndexedDB, PWA, service worker
 * MongoDB NoSQL database
 * Mongoose Object Data Modeling (ODM) library for MongoDB and Node.js
 * JavaScript, CSS, HTML
-* npm
-* IndexedDB, PWA, service worker
-
+* npm 
 
 ## Installation
 
 1. To install this code, download the zip file and extract the files to a designated directory on your node.js server without changing the directory/folder structure, or use GitHub's guidelines to clone the repository. 
 2. Once the code is extracted, navigate to the project directory and execute 'run npm install' command to install node.js and related dependencies.
 3. Update MongoDB connection information to point to your instance of MongoDB.
-
-Also, the application is currently hosted on Heroku and you can access it at 
-https://infinite-falls-67891.herokuapp.com/
 
 ## Usage 
 The application can be invoked by using the following command and follow the instructions after that:
@@ -47,9 +43,10 @@ The application can be invoked by using the following command and follow the ins
 node server.js
 ```
 Point your browser to http://localhost:3000/ to start using the application.  
+
 ## Screenshots of the application:
 
-![image](assets/budget-tracker01.png)
+![image](assets/budget-tracker-01.png)
 
 
 ## Link to functional application deployed on Heroku:
